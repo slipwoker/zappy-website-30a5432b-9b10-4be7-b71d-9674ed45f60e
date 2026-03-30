@@ -9414,6 +9414,161 @@ body.accessibility-widget-visible ._access-menu {
   text-align: center;
 }
 
+/* Added Component Styles */
+/* ===== Inline Row Section ===== */
+.inline-row-section {
+  background: #f5f6f0;
+  padding: 72px 24px;
+  direction: rtl;
+  font-family: system-ui, sans-serif;
+}
+
+.inline-row-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Row of cards — all on one line */
+.inline-row-items {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+  align-items: stretch;
+  justify-content: center;
+}
+
+/* Individual card */
+.inline-row-card {
+  flex: 1 1 0;
+  min-width: 0;
+  background: #ffffff;
+  border: 1px solid rgba(112, 130, 56, 0.28);
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(112, 130, 56, 0.10);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.inline-row-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 32px rgba(112, 130, 56, 0.18);
+}
+
+/* Image wrapper */
+.inline-row-card-img-wrap {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: #e8ead8;
+}
+
+.inline-row-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.35s ease;
+}
+
+.inline-row-card:hover .inline-row-card-img {
+  transform: scale(1.04);
+}
+
+/* Card body */
+.inline-row-card-body {
+  padding: 24px 22px 28px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 12px;
+}
+
+/* Card title */
+.inline-row-card-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #2d3a10;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Card text */
+.inline-row-card-text {
+  font-size: 0.97rem;
+  color: #4a4a4a;
+  line-height: 1.75;
+  margin: 0;
+  flex: 1;
+}
+
+/* CTA button */
+.inline-row-card-btn {
+  display: inline-block;
+  align-self: flex-start;
+  margin-top: 6px;
+  padding: 10px 24px;
+  background: var(--gradient-primary, linear-gradient(180deg, #7A7B30 0%, #666521 100%));
+  color: #ffffff;
+  font-size: 0.92rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 2px 8px rgba(102, 101, 33, 0.25);
+}
+
+.inline-row-card-btn:hover,
+.inline-row-card-btn:focus-visible {
+  opacity: 0.88;
+  transform: translateY(-1px);
+  box-shadow: 0 5px 16px rgba(102, 101, 33, 0.32);
+  outline: none;
+}
+
+.inline-row-card-btn:focus-visible {
+  outline: 3px solid var(--primary, #708238);
+  outline-offset: 3px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 900px) {
+  .inline-row-items {
+    gap: 20px;
+  }
+
+  .inline-row-card-title {
+    font-size: 1.08rem;
+  }
+
+  .inline-row-card-body {
+    padding: 18px 16px 22px;
+  }
+}
+
+@media (max-width: 640px) {
+  .inline-row-section {
+    padding: 48px 16px;
+  }
+
+  .inline-row-items {
+    flex-direction: column;
+    gap: 22px;
+  }
+
+  .inline-row-card {
+    flex: none;
+    width: 100%;
+  }
+
+  .inline-row-card-img-wrap {
+    aspect-ratio: 16 / 9;
+  }
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */
