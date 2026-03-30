@@ -1012,6 +1012,8 @@
 
       <div class="clients-card zappy-grid-item-media-only" role="listitem" data-grid-item-index="2">
         <img class="clients-logo zappy-editable-image" src="/assets/image-1774893713259-zjwfzr.webp" alt="לוגו לקוח 5" data-placeholder="clients-logo-5" data-context="Retail or e-commerce company logo on white background, orange and black, bold modern design" data-element-type="image" data-element-id="img-1774893765697-q9ua9h6n3" data-original-position="static" style="position: relative" data-resize-handler-attached="true">
+      </div><div class="clients-card zappy-grid-item-media-only" role="listitem" style="background-color: rgba(0, 0, 0, 0) !important; overflow: hidden !important; height: 525.684px !important;" data-grid-item-index="3" data-zappy-original-height="525.68359375">
+        <div data-zappy-zoom-wrapper="true" data-element-id="new-grid-img-1774893899200-0-fhtpeil30" data-element-type="image" data-zappy-zoom-wrapper-width="534px" data-zappy-zoom-wrapper-height="526px" data-zappy-zoom-wrapper-width-mode="px" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" style="position: relative !important; overflow: hidden !important; width: 534px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 526px !important; display: block !important;"><img class="clients-logo zappy-editable-image" src="/assets/image-1774893910659-1h7fvm.webp?v=1774893912553" alt="Image placeholder" data-placeholder="image-placeholder" data-context="Retail or e-commerce company logo on white background, orange and black, bold modern design" data-element-type="image" data-element-id="new-grid-img-1774893899200-0-fhtpeil30" data-original-position="static" style="position: relative; object-fit: cover !important; object-position: 50% 50%; width: 533.594px !important; height: 525.684px !important; max-width: 100% !important; display: block; margin-top: 0px !important; margin-bottom: 0px !important" id="new-grid-img-1774893899200-0-fhtpeil30" data-ai-slot="grid-item-image" data-zappy-original-width="533.5936889648438" data-zappy-original-height="525.68359375" data-zappy-zoom="1"></div>
       </div>
 
       
@@ -1455,6 +1457,34 @@
       if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initMobileLangMenu); }
       else { initMobileLangMenu(); }
       window.addEventListener('resize', function() { clearTimeout(window._mlrt); window._mlrt = setTimeout(initMobileLangMenu, 250); });
+    })();
+    </script>
+
+    <script>
+    (function(){
+      if(window.innerWidth>768)return;
+      function fixZW(){
+        document.querySelectorAll('[data-zappy-zoom-wrapper="true"]').forEach(function(w){
+          var cw=w.style.getPropertyValue('width');
+          if(!cw||cw==='100%')return;
+          w.style.setProperty('width','100%','important');
+          w.style.setProperty('max-width','100%','important');
+          w.style.setProperty('height','auto','important');
+          var img=w.querySelector('img');
+          if(img){
+            img.style.setProperty('position','relative','important');
+            img.style.setProperty('width','100%','important');
+            img.style.setProperty('height','auto','important');
+            img.style.setProperty('max-width','100%','important');
+            img.style.setProperty('max-height','400px','important');
+            img.style.setProperty('object-fit','cover','important');
+            img.style.setProperty('left','0','important');
+            img.style.setProperty('top','0','important');
+          }
+        });
+      }
+      if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',fixZW);
+      else setTimeout(fixZW,50);
     })();
     </script>
 </body>
