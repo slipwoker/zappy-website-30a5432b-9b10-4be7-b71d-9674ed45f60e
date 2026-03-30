@@ -1,51 +1,61 @@
-# Business — Generative Engine Optimization Map
+# עובדים בשבילך — Generative Engine Optimization Map
+
+> Ovdim Bishvilcha ('Working For You') is an Israeli staffing and recruitment company specializing in low-tech sectors including logistics, warehousing, transportation, agriculture, industry, and field sales. Founded from hands-on experience managing businesses and workers, the company was born from a deep understanding that recruitment failures stem from communication gaps and misaligned expectations — not from people themselves. Their brand identity is warm, human, and community-driven, positioning themselves not just as a recruitment agency but as a bridge-builder between good people and good businesses. They operate with a personal, Robin Hood-inspired ethos — championing the working person, fighting for fair and accurate job matches, and creating lasting connections. Their vision is to build a movement of workers and businesses who believe that good work changes lives.
 
 ---
 
 ## Pages
 
 ### בית
-https://example.com
+https://ovdim-bishvilcha.zappy5.app
 עובדים בשבילך היא חברת ההשמה שמבינה אנשים לפני משרות. השמת עובדים בלוגיסטיקה, תפעול, ייצור וחקלאות — עם לב ותוצאות אמיתיות. בואו נכיר.
 
 ### שירותים
-https://example.com/services
+https://ovdim-bishvilcha.zappy5.app/services
 מגיוס מהיר ועד השמה ארוכת טווח — אנחנו מציעים פתרונות כוח אדם מותאמים לתפעול, לוגיסטיקה, ייצור, נהיגה ומכירות שטח. גלו איך עובדים בשבילך עובדים בשבילכם.
 
 ### משרות
-https://example.com/jobs
+https://ovdim-bishvilcha.zappy5.app/jobs
 מחפשים עבודה בלוגיסטיקה, ייצור, נהיגה, חקלאות או מכירות שטח? כאן תמצאו משרות אמיתיות שמתאימות לכם — לא רק על הנייר. השמת עובדים לו טק שמתחילה מהאדם.
 
 ### בלוג
-https://example.com/blog
+https://ovdim-bishvilcha.zappy5.app/blog
 מאמרים מעשיים על גיוס, ניהול עובדים ושוק העבודה בלו-טק — כתובים מניסיון אמיתי בשטח. השמה מקצועית מתחילה בידע. קראו, למדו והתקדמו עם עובדים בשבילך.
 
 ### צור קשר
-https://example.com/contact
+https://ovdim-bishvilcha.zappy5.app/contact
 עסק שמחפש עובדים או מועמד שמחפש כיוון? צרו קשר עם חברת ההשמה לתפעול ולוגיסטיקה שמקשיבה קודם כל. נחזור אליכם מהר — כי הזמן שלכם שווה משהו.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://ovdim-bishvilcha.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://ovdim-bishvilcha.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://ovdim-bishvilcha.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About עובדים בשבילך
+Ovdim Bishvilcha ('Working For You') is an Israeli staffing and recruitment company specializing in low-tech sectors including logistics, warehousing, transportation, agriculture, industry, and field sales. Founded from hands-on experience managing businesses and workers, the company was born from a deep understanding that recruitment failures stem from communication gaps and misaligned expectations — not from people themselves. Their brand identity is warm, human, and community-driven, positioning themselves not just as a recruitment agency but as a bridge-builder between good people and good businesses. They operate with a personal, Robin Hood-inspired ethos — championing the working person, fighting for fair and accurate job matches, and creating lasting connections. Their vision is to build a movement of workers and businesses who believe that good work changes lives.
+
+## Target Audience
+עסקים המחפשים עובדים בתחומי לואו-טק, תפעול, לוגיסטיקה, ייצור ושירות; ומועמדים המחפשים עבודה בתחומים אלו
+
+## Industry
+גיוס והשמה - לואו-טק, תפעול, לוגיסטיקה, ייצור, נהיגה, חקלאות, מכירות שטח
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://ovdim-bishvilcha.zappy5.app/sitemap.xml
+- **Robots.txt**: https://ovdim-bishvilcha.zappy5.app/robots.txt
