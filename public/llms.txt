@@ -1,6 +1,4 @@
-# עובדים בשבילך — Generative Engine Optimization Map
-
-> Ovdim Bishvilcha ('Working For You') is an Israeli staffing and recruitment company specializing in low-tech sectors including logistics, warehousing, transportation, agriculture, industry, and field sales. Founded from hands-on experience managing businesses and workers, the company was born from a deep understanding that recruitment failures stem from communication gaps and misaligned expectations — not from people themselves. Their brand identity is warm, human, and community-driven, positioning themselves not just as a recruitment agency but as a bridge-builder between good people and good businesses. They operate with a personal, Robin Hood-inspired ethos — championing the working person, fighting for fair and accurate job matches, and creating lasting connections. Their vision is to build a movement of workers and businesses who believe that good work changes lives.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -44,15 +42,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About עובדים בשבילך
-Ovdim Bishvilcha ('Working For You') is an Israeli staffing and recruitment company specializing in low-tech sectors including logistics, warehousing, transportation, agriculture, industry, and field sales. Founded from hands-on experience managing businesses and workers, the company was born from a deep understanding that recruitment failures stem from communication gaps and misaligned expectations — not from people themselves. Their brand identity is warm, human, and community-driven, positioning themselves not just as a recruitment agency but as a bridge-builder between good people and good businesses. They operate with a personal, Robin Hood-inspired ethos — championing the working person, fighting for fair and accurate job matches, and creating lasting connections. Their vision is to build a movement of workers and businesses who believe that good work changes lives.
-
-## Target Audience
-עסקים המחפשים עובדים בתחומי לואו-טק, תפעול, לוגיסטיקה, ייצור ושירות; ומועמדים המחפשים עבודה בתחומים אלו
-
-## Industry
-גיוס והשמה - לואו-טק, תפעול, לוגיסטיקה, ייצור, נהיגה, חקלאות, מכירות שטח
-
+## About Business
 ---
 
 # Additional Resources
