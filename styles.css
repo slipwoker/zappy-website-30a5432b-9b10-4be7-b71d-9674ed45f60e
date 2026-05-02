@@ -9877,6 +9877,25 @@ body.accessibility-widget-visible ._access-menu {
   color: #F8F4EC !important;
   opacity: 1 !important;
 }
+
+.site-footer--redesigned .site-footer__inner {
+  max-width: 1200px !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.site-footer--redesigned .site-footer__bottom {
+  max-width: 1200px !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.site-footer--redesigned {
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
