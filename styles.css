@@ -9574,6 +9574,109 @@ body.accessibility-widget-visible ._access-menu {
   padding: 56px 24px 0;
   direction: rtl;
 }
+
+.site-footer .site-footer__inner {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr !important;
+  gap: 40px !important;
+  padding-bottom: 40px !important;
+  align-items: start !important;
+}
+
+.site-footer .site-footer__bottom {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+  gap: 12px !important;
+  padding: 20px 0 !important;
+  border-top: 1px solid var(--border-dark) !important;
+}
+
+.site-footer .site-footer__nav-list {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px !important;
+}
+
+.site-footer .site-footer__contact-list {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px !important;
+}
+
+.site-footer .site-footer__legal {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  gap: 16px !important;
+  flex-wrap: wrap !important;
+}
+
+.site-footer .site-footer__nav-title {
+  font-weight: 600 !important;
+  margin-bottom: 16px !important;
+  color: var(--text-light) !important;
+}
+
+@media (max-width: 768px) {
+.site-footer .site-footer__inner {
+  grid-template-columns: 1fr !important;
+  gap: 32px !important;
+}
+
+.site-footer .site-footer__bottom {
+  flex-direction: column !important;
+  align-items: flex-start !important;
+}
+}
+
+.site-footer .contact-list a {
+  color: var(--text-light) !important;
+}
+
+.site-footer .contact-list li {
+  color: var(--text-light) !important;
+}
+
+.site-footer .contact-list span {
+  color: var(--text-light) !important;
+}
+
+.site-footer .footer-legal a {
+  color: var(--text-light) !important;
+}
+
+.site-footer .copyright p {
+  color: var(--text-light) !important;
+}
+
+.site-footer .footer-description {
+  color: var(--text-light) !important;
+}
+
+.site-footer .footer-bottom a {
+  color: var(--text-light) !important;
+}
+
+.site-footer .footer-bottom p {
+  color: var(--text-light) !important;
+}
+
+.site-footer .footer-bottom span:not(.separator) {
+  color: var(--text-light) !important;
+}
+
+.site-footer .footer-legal .separator {
+  color: var(--text-light) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
