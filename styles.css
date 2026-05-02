@@ -9567,6 +9567,13 @@ body.accessibility-widget-visible ._access-menu {
     font-size: 1.4rem;
   }
 }
+
+.site-footer {
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  padding: 56px 24px 0;
+  direction: rtl;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
