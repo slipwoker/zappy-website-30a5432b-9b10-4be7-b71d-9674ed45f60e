@@ -9677,6 +9677,10 @@ body.accessibility-widget-visible ._access-menu {
 .site-footer .footer-legal .separator {
   color: var(--text-light) !important;
 }
+
+.site-footer {
+  padding-top: 60px !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
